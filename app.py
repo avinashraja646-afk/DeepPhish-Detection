@@ -63,7 +63,7 @@ st.caption("<p style='text-align: center;'>Vels University Computer Applications
 col1, col2 = st.columns([2, 1])
 
 with col1:
-    st.markdown("### 🖥️ Network Traffic Monitor")
+    st.markdown("### 🖥️ URL Sequence Analysis Engine")
     url_input = st.text_input("Enter URL to scan:", placeholder="e.g., https://vistas-portal.ac.in")
     
     if st.button("RUN DEEP PACKET INSPECTION", use_container_width=True):
